@@ -22,4 +22,6 @@ RUN for version in 3.7.12 3.8.12 3.9.13 3.10.6 ; do  \
       make altinstall ; done
 RUN cd /pysource/Python-3.10.6 && make install && \
     ln -s ./python3.10 /usr/local/bin/python
-#RUN cd /pysource && python3 get-poetry.py
+RUN curl -sSL https://install.python-poetry.org | python3 - && \
+    echo 'export PATH=/root/.local/bin:$PATH' >> /root/.bashrc
+
