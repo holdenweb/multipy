@@ -1,9 +1,0 @@
-1.2 20220807T190000
-
-Implements python3.7.12, 3.8.12, 3.9.13, 3.10.6 with openssl linked in.
-I haven't yet checked for further unsupported modules. If nobody complains,
-they're a YAGNI.
-
-1.4 20220808T090000
-
-Adds poetry (running on Python 3.10) to the mix of available tools.
