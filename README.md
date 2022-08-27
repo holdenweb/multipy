@@ -21,4 +21,6 @@ root@804a30e2b886:/# echo $PATH
 /root/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 ```
 
+You can download the latest version of this image from Docker hub with the command
 
+    docker pull holdenweb/multipy:latest
